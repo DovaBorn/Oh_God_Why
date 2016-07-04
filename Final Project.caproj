@@ -9,15 +9,17 @@
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>11031mtjxhoq2</unique-id>
     <saved-with-version>22700</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
-        <height>480</height>
+        <width>1700</width>
+        <height>2500</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -37,13 +39,41 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="PlatformLV3" sid="9095184944333756">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4040841791523154" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Building pack\roofRedMid.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlatformLV1" sid="5920439240581595">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6056911443087516" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Building pack\houseGray.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlatformLV2" sid="2495990255183395">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8646617342173366" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Building pack\houseBeige.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>Level 1.xml</layout>
+        <layout>Level 2.xml</layout>
+        <layout>Level 3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
