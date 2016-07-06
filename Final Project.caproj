@@ -12,14 +12,16 @@
     <used-plugins>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>1700</width>
-        <height>2500</height>
+        <width>300</width>
+        <height>200</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -50,6 +52,11 @@
         </object-type>
         <object-type name="PlatformLV1" sid="5920439240581595">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="629147336081834">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6056911443087516" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Building pack\houseGray.png" />
@@ -64,6 +71,45 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Brick" sid="5031449763652588">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="15" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4811663808855547" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castle.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleCenter_rounded.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleCliffLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleCliffLeftAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleCliffRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleCliffRightAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleHalf.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleHalfLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleHalfMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleHalfRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleHillLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleHillLeft2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleHillRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castleHillRight2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Backround" sid="2032133339775639">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6215721017846742" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkAlt.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkAlt2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkBottomLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkBottomMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkBottomRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkMidLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkMidRight.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkTopLeft.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkTopMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkTopRight.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -74,6 +120,7 @@
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
