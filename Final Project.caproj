@@ -64,12 +64,31 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="GameOverScreenBackground" sid="7202050682046791">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2987206272092791" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Base pack\Tiles\liquidWater.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextGameOverScreen" sid="426723550192403">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6138835046868392" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
+        <layout>Start Screen.xml</layout>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>
+        <layout>Game Over Screen.xml</layout>
+        <layout>BossRoom.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
