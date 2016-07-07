@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level 1 Events</name>
+    <events>
+        <variable constant="0" name="Screen" sid="6770524461304105" static="0" type="number">2200</variable>
+        <event-block sid="5445148197224096">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9553711731446315" type="System" />
+            </conditions>
+            <actions>
+                <action id="-6" name="Scroll to Y" sid="5960908210965367" type="System">
+                    <param id="0" name="Y">2500</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4145659206703694">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="8556290075551851" type="System" />
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="9838877810392348" type="System">
+                    <param id="0" name="Variable">Screen</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-6" name="Scroll to Y" sid="9529728013918545" type="System">
+                    <param id="0" name="Y">Screen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2655799510663784">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="6014372577938224" type="Kignt" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5251612587800418" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="4263751712695473">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7463761187483043" type="Door">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6808224810286029" type="System">
+                    <param id="0" name="Layout">Level 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2152797887931761">
+            <conditions>
+                <condition id="2" name="Key is down" sid="8270764496947878" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2041467757071938" type="Kignt">
+                    <param id="0" name="Animation">&quot;WalkingLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4071613998509909">
+            <conditions>
+                <condition id="3" name="On key released" sid="9604515219592738" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="462861005421277" type="Kignt">
+                    <param id="0" name="Animation">&quot;LeftStand&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7249697037874734">
+            <conditions>
+                <condition id="2" name="Key is down" sid="1583596940339848" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="931916609990633" type="Kignt">
+                    <param id="0" name="Animation">&quot;WalkingRight&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7207057556538167">
+            <conditions>
+                <condition id="3" name="On key released" sid="7377955214782369" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7307527554813909" type="Kignt">
+                    <param id="0" name="Animation">&quot;RightStand&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7752984552883227">
+            <conditions>
+                <condition id="2" name="Key is down" sid="3452820085919371" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="1156003430179454" type="Kignt">
+                    <param id="0" name="Animation">&quot;JumpLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7014036933641755">
+            <conditions>
+                <condition id="2" name="Key is down" sid="214096303949246" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="3950296172318005" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="8614544829144757" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8996815289425795">
+            <conditions>
+                <condition id="2" name="Key is down" sid="7336064549164547" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="3473833943605865" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="229243424553741" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackRight&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
