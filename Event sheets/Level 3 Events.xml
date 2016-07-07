@@ -15,5 +15,102 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="6588067829685071">
+            <conditions>
+                <condition id="2" name="Key is down" sid="6367247520051139" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3982419385098696" type="Kignt">
+                    <param id="0" name="Animation">&quot;WalkingLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4597582740615043">
+            <conditions>
+                <condition id="3" name="On key released" sid="639041797288235" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7169952499899013" type="Kignt">
+                    <param id="0" name="Animation">&quot;LeftStand&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5785229864087603">
+            <conditions>
+                <condition id="2" name="Key is down" sid="3162352154971991" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="4435843073307444" type="Kignt">
+                    <param id="0" name="Animation">&quot;WalkingRight&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3442335385992337">
+            <conditions>
+                <condition id="3" name="On key released" sid="2210605683149833" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9625414572099541" type="Kignt">
+                    <param id="0" name="Animation">&quot;RightStand&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7631089542598456">
+            <conditions>
+                <condition id="2" name="Key is down" sid="3518524526672509" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="185825393991375" type="Kignt">
+                    <param id="0" name="Animation">&quot;JumpLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8140883065336098">
+            <conditions>
+                <condition id="2" name="Key is down" sid="6516464900236212" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="4423525903484989" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2149575062174333" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3930812912072535">
+            <conditions>
+                <condition id="2" name="Key is down" sid="7882671883404883" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="2217805984506637" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3639910446430107" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackRight&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
