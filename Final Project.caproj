@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Final Project</name>
     <description></description>
@@ -837,17 +837,37 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="GameOverScreenBackground" sid="7202050682046791">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2987206272092791" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Base pack\Tiles\liquidWater.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextGameOverScreen" sid="426723550192403">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6138835046868392" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>
+        <layout>Start Screen.xml</layout>
+        <layout>Game Over Screen.xml</layout>
+        <layout>BossRoom.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Level 1 Events.xml</event-sheet>
-        <event-sheet>Level 3 Events.xml</event-sheet>
         <event-sheet>Level 2 Events.xml</event-sheet>
+        <event-sheet>Level 3 Events.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="193" />
