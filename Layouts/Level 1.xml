@@ -15968,7 +15968,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1440</x>
-                        <y>1088</y>
+                        <y>1056</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
@@ -24252,8 +24252,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>992</x>
-                        <y>2144</y>
+                        <x>960</x>
+                        <y>2176</y>
                         <z>0</z>
                         <width>448</width>
                         <height>32</height>
@@ -24281,8 +24281,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>512</x>
-                        <y>2016</y>
+                        <x>576</x>
+                        <y>2048</y>
                         <z>0</z>
                         <width>448</width>
                         <height>32</height>
@@ -24311,7 +24311,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>928</x>
-                        <y>1888</y>
+                        <y>1920</y>
                         <z>0</z>
                         <width>448</width>
                         <height>32</height>
@@ -24612,7 +24612,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="112">
+                <instance type="Sprite2" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -24629,7 +24629,94 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>864</x>
+                        <x>928</x>
+                        <y>352</y>
+                        <z>0</z>
+                        <width>-416</width>
+                        <height>224</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.502183378</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite3" uid="29">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1376</x>
+                        <y>1568</y>
+                        <z>0</z>
+                        <width>416</width>
+                        <height>229</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.502183378</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite4" uid="30">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1504</x>
+                        <y>1280</y>
+                        <z>0</z>
+                        <width>416</width>
+                        <height>229</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.502183378</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite5" uid="31">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>736</x>
                         <y>1120</y>
                         <z>0</z>
                         <width>416</width>
@@ -24641,7 +24728,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite2" uid="348">
+                <instance type="Sprite6" uid="32">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -24658,10 +24745,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>224</x>
-                        <y>1600</y>
+                        <x>240</x>
+                        <y>640.000061035</y>
                         <z>0</z>
-                        <width>-416</width>
+                        <width>-384</width>
                         <height>224</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -24670,7 +24757,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="377">
+                <instance type="PlatformLV1" uid="33">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -24678,7 +24765,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid">
+                        <behavior-instance type="Jumpthru">
                             <properties>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -24687,14 +24774,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>896</x>
-                        <y>1792</y>
+                        <x>1152</x>
+                        <y>1824</y>
                         <z>0</z>
-                        <width>416</width>
-                        <height>229</height>
+                        <width>64</width>
+                        <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.502183378</hotspotY>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
