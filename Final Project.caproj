@@ -10,18 +10,25 @@
     <unique-id>11031mtjxhoq2</unique-id>
     <saved-with-version>22700</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+        <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>300</width>
-        <height>200</height>
+        <width>1700</width>
+        <height>1000</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -44,6 +51,11 @@
     <object-folder>
         <object-type name="PlatformLV3" sid="9095184944333756">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="3852790004035571">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4040841791523154" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Building pack\roofRedMid.png" />
@@ -65,14 +77,34 @@
         </object-type>
         <object-type name="PlatformLV2" sid="2495990255183395">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="2154360847630741">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8646617342173366" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Building pack\houseBeige.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Tile extension pack\PNG Purple\strip_purple_01.png">
+                        <collision-poly>
+                            <point x="0.0285714" y="0.0285714" />
+                            <point x="0.5" y="0" />
+                            <point x="0.971429" y="0.0285714" />
+                            <point x="0.985714" y="0.5" />
+                            <point x="0.571429" y="0.571429" />
+                            <point x="0.428571" y="0.571429" />
+                            <point x="0.0142857" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="Brick" sid="5031449763652588">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3504432040023397">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="15" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4811663808855547" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\castle.png" />
@@ -110,6 +142,210 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TiledBackground" sid="8557417325630398">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Free Bundle\Platformer pixel\backgrounds.png" />
+        </object-type>
+        <object-type name="TiledBackground2" sid="8300334251403711">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\Free Bundle\Platformer pack\Tile extension pack\PNG Metal\slice18_18.png" />
+        </object-type>
+        <object-type name="Wall" sid="7284699347772374">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3169528037856035">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="252234603372878" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\9-Patch pack\Rounded\stone.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03125" y="0.96875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Kignt" sid="1204862491235787">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="3080063299437033">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="2590375605948332">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="LeftStand" pingpong="0" repeatcount="1" repeatto="0" sid="9733775181632326" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Sprites\Sword-stand.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="AttackLeft" pingpong="0" repeatcount="1" repeatto="0" sid="2092121791953433" speed="5">
+                    <frame duration="1" hotspotX="0.504762" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.27619" y="0.345238" />
+                            <point x="0.495238" y="0.107143" />
+                            <point x="0.961905" y="0.047619" />
+                            <point x="0.666667" y="0.5" />
+                            <point x="0.742857" y="0.678571" />
+                            <point x="0.495238" y="0.940476" />
+                            <point x="0.352381" y="0.559524" />
+                            <point x="0.171429" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Dead" pingpong="0" repeatcount="1" repeatto="0" sid="1114380704804275" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="1" name="WalkingLeft" pingpong="0" repeatcount="1" repeatto="0" sid="4461996522880183" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="RightStand" pingpong="0" repeatcount="1" repeatto="0" sid="3977011525868175" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="AttackRight" pingpong="0" repeatcount="1" repeatto="0" sid="7615316873151691" speed="5">
+                    <frame duration="1" hotspotX="0.495238" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.828571" y="0.5" />
+                            <point x="0.647619" y="0.559524" />
+                            <point x="0.504762" y="0.940476" />
+                            <point x="0.257143" y="0.678571" />
+                            <point x="0.333333" y="0.5" />
+                            <point x="0.0380952" y="0.047619" />
+                            <point x="0.504762" y="0.107143" />
+                            <point x="0.723809" y="0.345238" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="JumpLeft" pingpong="0" repeatcount="1" repeatto="0" sid="1241187673739831" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="3" loop="0" name="WalkingRight" pingpong="0" repeatcount="1" repeatto="0" sid="8224202278232926" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="JumpRight" pingpong="0" repeatcount="1" repeatto="0" sid="3307442673402809" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Door" sid="9869530130782418">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7093021909334796" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\doorOpen.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Door1" sid="6295935064414752">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7377833914381127" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\doorOpenTop.png">
+                        <collision-poly>
+                            <point x="0.428571" y="0.428571" />
+                            <point x="0.571429" y="0.428571" />
+                            <point x="0.828571" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.157143" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Fire" sid="873463673402008">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="6080607571159615">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="4506518629064671">
+                    <behavior id="wrap" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="540277976460958" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Window" sid="8322583797336354">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2719335776136565" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\window.png">
+                        <collision-poly>
+                            <point x="0.171429" y="0.171429" />
+                            <point x="0.5" y="0.0428571" />
+                            <point x="0.828571" y="0.171429" />
+                            <point x="0.928571" y="0.5" />
+                            <point x="0.928571" y="0.928571" />
+                            <point x="0.5" y="0.971429" />
+                            <point x="0.0571429" y="0.942857" />
+                            <point x="0.0571429" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Torch" sid="2155627980768898">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="999999999" repeatto="0" sid="7819005660351793" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\tochLit.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\tochLit2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="7959503245783831">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="188821929691398" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Base pack\Tiles\signExit.png">
+                        <collision-poly>
+                            <point x="0.0857143" y="0.0857143" />
+                            <point x="0.5" y="0" />
+                            <point x="0.914286" y="0.0857143" />
+                            <point x="1" y="0.5" />
+                            <point x="0.657143" y="0.657143" />
+                            <point x="0.5" y="1" />
+                            <point x="0.342857" y="0.657143" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="2573435914377737">
+            <plugin id="Keyboard" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -118,11 +354,13 @@
         <layout>Level 3.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
-        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Level 1 Events.xml</event-sheet>
+        <event-sheet>Level 3 Events.xml</event-sheet>
+        <event-sheet>Level 2 Events.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Keyboard" uid="193" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>

@@ -10,12 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Level 1</layout>
+        <layout order="0">Level 1</layout>
         <layout order="2">Level 2</layout>
         <layout order="4">Level 3</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
-        <event-sheet order="3">Event sheet 2</event-sheet>
-        <event-sheet order="5">Event sheet 3</event-sheet>
+        <event-sheet active="1" order="1">Level 1 Events</event-sheet>
+        <event-sheet order="3">Level 2 Events</event-sheet>
+        <event-sheet order="5">Level 3 Events</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -37,5 +37,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/PlatformLV2/" />
         <folder expanded="1" path="animation-folder/Brick/" />
         <folder expanded="1" path="animation-folder/Backround/" />
+        <folder expanded="1" path="animation-folder/Wall/" />
+        <folder expanded="1" path="animation-folder/Kignt/" />
+        <folder expanded="1" path="animation-folder/Door/" />
+        <folder expanded="1" path="animation-folder/Door1/" />
+        <folder expanded="1" path="animation-folder/Fire/" />
+        <folder expanded="1" path="animation-folder/Window/" />
+        <folder expanded="1" path="animation-folder/Torch/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
     </folders-expanded>
 </c2uistate>
