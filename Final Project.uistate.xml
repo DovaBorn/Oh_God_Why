@@ -37,6 +37,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/PlatformLV2/" />
         <folder expanded="1" path="animation-folder/Brick/" />
         <folder expanded="1" path="animation-folder/Backround/" />
+<<<<<<< HEAD
         <folder expanded="1" path="animation-folder/Wall/" />
         <folder expanded="1" path="animation-folder/Kignt/" />
         <folder expanded="1" path="animation-folder/Door/" />
@@ -45,5 +46,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Window/" />
         <folder expanded="1" path="animation-folder/Torch/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
+=======
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+>>>>>>> ae86023404bfc5ab674bb6598bde276765517164
     </folders-expanded>
 </c2uistate>
