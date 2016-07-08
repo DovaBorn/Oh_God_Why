@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>End Events</name>
+    <events>
+        <event-block sid="8869917544053038">
+            <conditions>
+                <condition id="2" name="Key is down" sid="19179399753166" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="6779297392251171" type="System">
+                    <param id="0" name="Object to create">FKnight</param>
+                    <param id="1" name="Layer">&quot;Front&quot;</param>
+                    <param id="2" name="X">900</param>
+                    <param id="3" name="Y">430</param>
+                </action>
+                <action id="-3" name="Create object" sid="4890795381711429" type="System">
+                    <param id="0" name="Object to create">EndStory2</param>
+                    <param id="1" name="Layer">&quot;Front&quot;</param>
+                    <param id="2" name="X">220</param>
+                    <param id="3" name="Y">420</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -418,28 +418,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Boss" uid="1543">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>384</x>
-                        <y>384</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>234</height>
-                        <depth>0</depth>
-                        <hotspotX>1.239583373</hotspotX>
-                        <hotspotY>0.200854704</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Kignt" uid="1544">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -447,6 +425,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <Health>3</Health>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
@@ -471,8 +452,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1632</x>
-                        <y>1216</y>
+                        <x>1628</x>
+                        <y>1196</y>
                         <z>0</z>
                         <width>90</width>
                         <height>88</height>
@@ -574,6 +555,65 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text2" uid="1622">
+                    <properties>
+                        <text>&quot;The Legends say the Gargoyle King will die after 10 hits...&quot;-</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-29,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1442</x>
+                        <y>1097</y>
+                        <z>0</z>
+                        <width>232</width>
+                        <height>228</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Bosss" uid="1571">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>181</x>
+                        <y>382</y>
+                        <z>0</z>
+                        <width>92</width>
+                        <height>236</height>
+                        <depth>0</depth>
+                        <hotspotX>1.315217376</hotspotX>
+                        <hotspotY>0.207627118</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

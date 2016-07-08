@@ -845,7 +845,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1232</x>
+                        <x>1184</x>
                         <y>192</y>
                         <z>0</z>
                         <width>32</width>
@@ -1705,6 +1705,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <Health>3</Health>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
@@ -1729,8 +1732,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1504</x>
-                        <y>2112</y>
+                        <x>1472</x>
+                        <y>1952</y>
                         <z>0</z>
                         <width>90</width>
                         <height>88</height>

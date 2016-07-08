@@ -14,7 +14,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="4145659206703694">
+        <event-block disabled="1" sid="4145659206703694">
             <conditions>
                 <condition id="-1" name="Every tick" sid="8556290075551851" type="System" />
             </conditions>
@@ -152,6 +152,222 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="3947594864907924" type="System">
                     <param id="0" name="Layout">Game Over Screen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6057350233814657">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7667522213339054" type="Kignt">
+                    <param id="0" name="Object">MVD</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="3902361853915993" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackLeft&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1792809282286876" type="MVD" />
+            </actions>
+        </event-block>
+        <event-block sid="8378948807450423">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6788247422733083" type="Kignt">
+                    <param id="0" name="Object">MVD</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="7787985846054316" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackRight&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7656798733715707" type="MVD" />
+            </actions>
+        </event-block>
+        <event-block sid="837125561618785">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5747935963074218" type="Kignt">
+                    <param id="0" name="Object">MVDR</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="8621602997134887" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackLeft&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2100589528034186" type="MVDR" />
+            </actions>
+        </event-block>
+        <event-block sid="8919262033443931">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6648850479761812" type="Kignt">
+                    <param id="0" name="Object">MVDR</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="4562541146795715" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackRight&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3708912481189632" type="MVDR" />
+            </actions>
+        </event-block>
+        <event-block sid="1836128292953774">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1628576443680081" type="MVDR">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="8654411576984555" type="Kignt">
+                    <param id="0" name="Animation">&quot;JumpRight&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2437761343072578" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="3818439221052927">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3526679007883602" type="MVD">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="9285350143932352" type="Kignt">
+                    <param id="0" name="Animation">&quot;WalkingLeft&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2910483680189555" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="9395520890396575">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8645889285356014" type="MVDR">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="9058604594334114" type="Kignt">
+                    <param id="0" name="Animation">&quot;WalkingRight&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1445744475314087" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="8092052697336191">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3455355569124971" type="MVD">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="637011554990415" type="Kignt">
+                    <param id="0" name="Animation">&quot;JumpRight&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3820477200890299" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="7625709349820652">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9485276512985054" type="MVDR">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="7173190970795086" type="Kignt">
+                    <param id="0" name="Animation">&quot;RightStand&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5367616940227317" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="9539663347463774">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5797389202373905" type="MVD">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="6943080038843111" type="Kignt">
+                    <param id="0" name="Animation">&quot;JumpLeft&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9884126395319997" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="7204905020610518">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4997900961345015" type="MVDR">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="312823808758084" type="Kignt">
+                    <param id="0" name="Animation">&quot;LeftStand&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="994501687568861" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="8844940242970793">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6491878902034502" type="MVDR">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="4417782101912578" type="Kignt">
+                    <param id="0" name="Animation">&quot;WalkingLeft&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3950508331325907" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="5174378782825022">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8924840585836168" type="MVD">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="4564825389637858" type="Kignt">
+                    <param id="0" name="Animation">&quot;RightStand&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8095780723196792" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="9531942304931286">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4145964068876008" type="MVDR">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="5584214314626822" type="Kignt">
+                    <param id="0" name="Animation">&quot;JumpLeft&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="9588514801041192" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="8786262135621219">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6243294296875057" type="MVD">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="3822155037003096" type="Kignt">
+                    <param id="0" name="Animation">&quot;WalkingRight&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1416994429767951" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="130561685744947">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="260115790790964" type="MVDR">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2757233083790723" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="6315422873518532">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8830386039389129" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="247096094802209" type="System">
+                    <param id="0" name="Width">1700</param>
+                    <param id="1" name="Height">1000</param>
                 </action>
             </actions>
         </event-block>

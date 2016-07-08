@@ -2,5 +2,31 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Game Over Events</name>
-    <events />
+    <events>
+        <event-block sid="1352948949382447">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3136673935439508" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">StartOver</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="150036783448496" type="System">
+                    <param id="0" name="Layout">Start Screen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7700526056151725">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2059628319821317" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="180787871875848" type="System">
+                    <param id="0" name="Width">1700</param>
+                    <param id="1" name="Height">2000</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

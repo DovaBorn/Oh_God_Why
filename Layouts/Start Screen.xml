@@ -5,7 +5,7 @@
     <event-sheet>Start Screen Events</event-sheet>
     <size>
         <width>1700</width>
-        <height>2500</height>
+        <height>500</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -40,10 +40,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>848</x>
-                        <y>496</y>
+                        <y>1232</y>
                         <z>0</z>
                         <width>1728</width>
-                        <height>1056</height>
+                        <height>2528</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -4111,7 +4111,6 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Flash" />
                         <behavior-instance type="Rotate">
                             <properties>
                                 <speed>180</speed>

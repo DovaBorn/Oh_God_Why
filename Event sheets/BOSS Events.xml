@@ -10,8 +10,8 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="6724252981749771" type="Boss">
-                    <param id="0" name="Animation">&quot;Attack1&quot;</param>
+                <action id="4" name="Set animation" sid="6724252981749771" type="Bosss">
+                    <param id="0" name="Animation">&quot;Attack&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
@@ -120,6 +120,93 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="801235410212811" type="System">
                     <param id="0" name="Layout">Game Over Screen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="859868653125433">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="4127563782745215" type="Kignt" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6593068496866291" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="4184578101411023">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="4993275645563482" type="Bosss" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3439176523490393" type="System">
+                    <param id="0" name="Layout">End</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4094231564320913">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5178303924128467" type="Bosss">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="3173797165953146" type="Bosss">
+                    <param id="0" name="Animation">&quot;Attack1&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2816506372238948" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="980464035729075">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5532730769938476" type="Kignt">
+                    <param id="0" name="Object">Bosss</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="7273621253097909" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackLeft&quot;</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="9164406304605744" type="Bosss">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="5795942844486499" type="Bosss">
+                    <param id="0" name="Instance variable">Health</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1589010759786711">
+            <conditions>
+                <condition id="4" name="On finished" sid="8492905950747249" type="Bosss">
+                    <param id="0" name="Animation">&quot;Attack&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="5217115492993596" type="Bosss">
+                    <param id="0" name="Animation">&quot;Attack2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8296185363194106">
+            <conditions>
+                <condition id="4" name="On finished" sid="1048222865389381" type="Bosss">
+                    <param id="0" name="Animation">&quot;Attack2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7596484467037818" type="Bosss">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2215298300636831">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2335001002198174" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="9310676366009127" type="System">
+                    <param id="0" name="Width">1700</param>
+                    <param id="1" name="Height">1000</param>
                 </action>
             </actions>
         </event-block>
