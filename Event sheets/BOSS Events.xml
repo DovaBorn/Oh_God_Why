@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>BOSS Events</name>
+    <events>
+        <event-block sid="1618173953449224">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="4710758918415429" type="System">
+                    <param id="0" name="Interval (seconds)">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6724252981749771" type="Boss">
+                    <param id="0" name="Animation">&quot;Attack1&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3672061148112827">
+            <conditions>
+                <condition id="2" name="Key is down" sid="8313244884213036" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7489921065897955" type="Kignt">
+                    <param id="0" name="Animation">&quot;WalkingLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5514276776483839">
+            <conditions>
+                <condition id="3" name="On key released" sid="1585473830097587" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="5390047307989732" type="Kignt">
+                    <param id="0" name="Animation">&quot;LeftStand&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2177935126185246">
+            <conditions>
+                <condition id="2" name="Key is down" sid="4353360222963455" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6445559068440278" type="Kignt">
+                    <param id="0" name="Animation">&quot;WalkingRight&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2818317139927275">
+            <conditions>
+                <condition id="3" name="On key released" sid="4018799147158512" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2222384723725817" type="Kignt">
+                    <param id="0" name="Animation">&quot;RightStand&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1231066197776643">
+            <conditions>
+                <condition id="2" name="Key is down" sid="7061726763069831" type="Keyboard">
+                    <param id="0" name="Key">38 (Up arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3199926209499632" type="Kignt">
+                    <param id="0" name="Animation">&quot;JumpLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="853656160825171">
+            <conditions>
+                <condition id="2" name="Key is down" sid="2635930721375871" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="6990935599144412" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="5015970014031784" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2055037045504868">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9333144030851618" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="3956454588578887" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6995186049347937" type="Kignt">
+                    <param id="0" name="Animation">&quot;AttackRight&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="609885638027109">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="8957988575439849" type="Kignt" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="801235410212811" type="System">
+                    <param id="0" name="Layout">Game Over Screen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -118,5 +118,27 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="9780581492146442">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2970061322277532" type="Window">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9649992487586886" type="System">
+                    <param id="0" name="Layout">Level 3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9596363693756138">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="4950478009829331" type="Kignt" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="422898287531905" type="System">
+                    <param id="0" name="Layout">Game Over Screen</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

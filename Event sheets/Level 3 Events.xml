@@ -112,5 +112,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="4334462702720261">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="8818855136201184" type="Kignt" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7827665275902799" type="System">
+                    <param id="0" name="Layout">Game Over Screen</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

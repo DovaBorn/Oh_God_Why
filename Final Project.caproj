@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Final Project</name>
     <description></description>
@@ -11,12 +11,16 @@
     <saved-with-version>22700</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
@@ -58,7 +62,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4040841791523154" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Building pack\roofRedMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Platformer pack\Building pack\houseDarkTopRight.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -684,7 +688,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite5" sid="7222485429618083">
+        <object-type name="MVD" sid="7222485429618083">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="8052871664834644">
@@ -692,44 +696,98 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="25" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5089569078089724" speed="20">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragon-assets\dragon.gif">
+                <animation framecount="9" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5089569078089724" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0022_Layer-2.png">
                         <collision-poly>
-                            <point x="0.461538" y="0.838428" />
-                            <point x="0.5" y="0.703057" />
-                            <point x="0.677885" y="0.585153" />
-                            <point x="0.858173" y="0.742358" />
-                            <point x="0.5" y="0.886463" />
+                            <point x="0.524039" y="0.637555" />
+                            <point x="0.689903" y="0.515284" />
+                            <point x="0.939904" y="0.580786" />
+                            <point x="0.757212" y="0.912664" />
+                            <point x="0.439904" y="0.886463" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0023_Layer-1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0022_Layer-2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0021_Layer-3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0020_Layer-4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0019_Layer-5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0018_Layer-6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0017_Layer-7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0016_Layer-8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0015_Layer-9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0014_Layer-10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0013_Layer-11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0012_Layer-12.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0011_Layer-13.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0010_Layer-14.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0009_Layer-15.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0008_Layer-16.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0007_Layer-17.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0006_Layer-18.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0005_Layer-19.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0004_Layer-20.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0003_Layer-21.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0001_Layer-22.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0000_Layer-23.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0002_Layer-24.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0016_Layer-8.png">
+                        <collision-poly>
+                            <point x="0.447115" y="0.19214" />
+                            <point x="0.673076" y="0.183406" />
+                            <point x="0.887019" y="0.561135" />
+                            <point x="0.742788" y="0.921397" />
+                            <point x="0.545673" y="0.938865" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0019_Layer-5.png">
+                        <collision-poly>
+                            <point x="0.415865" y="0.611354" />
+                            <point x="0.592548" y="0.371179" />
+                            <point x="0.932692" y="0.49345" />
+                            <point x="0.771634" y="0.925764" />
+                            <point x="0.543269" y="0.899563" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0014_Layer-10.png">
+                        <collision-poly>
+                            <point x="0.403846" y="0.790393" />
+                            <point x="0.479567" y="0.417031" />
+                            <point x="0.680288" y="0.283843" />
+                            <point x="0.957932" y="0.340611" />
+                            <point x="0.754807" y="0.912664" />
+                            <point x="0.447115" y="0.908297" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.30303" hotspotY="0.328671" original-source="D:\Oh_God_Why\dragonGREYt_0013_Layer-11.png">
+                        <collision-poly>
+                            <point x="0.371212" y="0.58042" />
+                            <point x="0.25" y="0.216783" />
+                            <point x="0.549242" y="0" />
+                            <point x="1" y="0.0489511" />
+                            <point x="0.708333" y="1" />
+                            <point x="0.0227273" y="0.958042" />
+                            <point x="0.0227273" y="0.797203" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0012_Layer-12.png">
+                        <collision-poly>
+                            <point x="0.180288" y="0.803494" />
+                            <point x="0.474759" y="0.672489" />
+                            <point x="0.483173" y="0.371179" />
+                            <point x="0.948318" y="0.31441" />
+                            <point x="0.781249" y="0.921397" />
+                            <point x="0.185096" y="0.925764" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0010_Layer-14.png">
+                        <collision-poly>
+                            <point x="0.0721154" y="0.598253" />
+                            <point x="0.266827" y="0.569869" />
+                            <point x="0.697115" y="0.270742" />
+                            <point x="0.959135" y="0.329694" />
+                            <point x="0.771634" y="0.925764" />
+                            <point x="0.112981" y="0.917031" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0009_Layer-15.png">
+                        <collision-poly>
+                            <point x="0.230769" y="0.69869" />
+                            <point x="0.498798" y="0.375546" />
+                            <point x="0.913461" y="0.270742" />
+                            <point x="0.875" y="0.912664" />
+                            <point x="0.365385" y="0.895196" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0007_Layer-17.png">
+                        <collision-poly>
+                            <point x="0.444712" y="0.759826" />
+                            <point x="0.516827" y="0.305677" />
+                            <point x="0.926683" y="0.21179" />
+                            <point x="0.961538" y="0.628821" />
+                            <point x="0.769231" y="0.921397" />
+                            <point x="0.548077" y="0.925764" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite6" sid="7158099994580604">
+        <object-type name="MVDR" sid="7158099994580604">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="6166375809815263">
@@ -737,7 +795,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="25" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2538432238677434" speed="20">
+                <animation framecount="11" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2538432238677434" speed="20">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragon-assets\dragon.gif">
                         <collision-poly>
                             <point x="0.461538" y="0.838428" />
@@ -747,30 +805,92 @@
                             <point x="0.5" y="0.886463" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0023_Layer-1.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0022_Layer-2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0021_Layer-3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0020_Layer-4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0019_Layer-5.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0018_Layer-6.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0017_Layer-7.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0016_Layer-8.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0015_Layer-9.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0014_Layer-10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0013_Layer-11.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0012_Layer-12.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0011_Layer-13.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0010_Layer-14.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0009_Layer-15.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0008_Layer-16.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0007_Layer-17.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0006_Layer-18.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0005_Layer-19.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0004_Layer-20.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0003_Layer-21.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0001_Layer-22.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0000_Layer-23.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0002_Layer-24.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0020_Layer-4.png">
+                        <collision-poly>
+                            <point x="0.420673" y="0.628821" />
+                            <point x="0.596153" y="0.41048" />
+                            <point x="0.860577" y="0.534934" />
+                            <point x="0.822115" y="0.720524" />
+                            <point x="0.736779" y="0.914847" />
+                            <point x="0.540865" y="0.917031" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0017_Layer-7.png">
+                        <collision-poly>
+                            <point x="0.516827" y="0.292576" />
+                            <point x="0.725961" y="0.292576" />
+                            <point x="0.838942" y="0.550218" />
+                            <point x="0.742788" y="0.908297" />
+                            <point x="0.512019" y="0.899563" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0016_Layer-8.png">
+                        <collision-poly>
+                            <point x="0.497596" y="0.20524" />
+                            <point x="0.711538" y="0.231441" />
+                            <point x="0.884615" y="0.550218" />
+                            <point x="0.733172" y="0.925764" />
+                            <point x="0.533653" y="0.930131" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0015_Layer-9.png">
+                        <collision-poly>
+                            <point x="0.471154" y="0.165939" />
+                            <point x="0.995193" y="0.179039" />
+                            <point x="0.752404" y="0.90393" />
+                            <point x="0.521634" y="0.917031" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0014_Layer-10.png">
+                        <collision-poly>
+                            <point x="0.46875" y="0.388646" />
+                            <point x="0.949519" y="0.310044" />
+                            <point x="0.754807" y="0.912664" />
+                            <point x="0.411058" y="0.899563" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0012_Layer-12.png">
+                        <collision-poly>
+                            <point x="0.548077" y="0.292576" />
+                            <point x="0.963943" y="0.292576" />
+                            <point x="0.762019" y="0.956332" />
+                            <point x="0.168269" y="0.89083" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0010_Layer-14.png">
+                        <collision-poly>
+                            <point x="0.09375" y="0.576419" />
+                            <point x="0.963942" y="0.283843" />
+                            <point x="0.749999" y="0.947598" />
+                            <point x="0.108173" y="0.934498" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0008_Layer-16.png">
+                        <collision-poly>
+                            <point x="0.512019" y="0.358079" />
+                            <point x="0.935096" y="0.200873" />
+                            <point x="0.879808" y="0.934498" />
+                            <point x="0.442308" y="0.895196" />
+                            <point x="0.292067" y="0.663755" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0004_Layer-20.png">
+                        <collision-poly>
+                            <point x="0.466346" y="0.532751" />
+                            <point x="0.935096" y="0.567686" />
+                            <point x="0.745192" y="0.90393" />
+                            <point x="0.471154" y="0.89083" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502183" original-source="D:\Oh_God_Why\dragonGREYt_0002_Layer-24.png">
+                        <collision-poly>
+                            <point x="0.449519" y="0.676856" />
+                            <point x="0.677885" y="0.473799" />
+                            <point x="0.915865" y="0.611354" />
+                            <point x="0.757211" y="0.921397" />
+                            <point x="0.507212" y="0.917031" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -841,7 +961,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2987206272092791" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Base pack\Tiles\liquidWater.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Sprites\Castle" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -852,6 +972,140 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="G:\Marist Pre College Game Design\Sprits to Use\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="7200601518792084">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8459705881670741" speed="5">
+                    <frame duration="1" hotspotX="0.495238" hotspotY="0.5" original-source="D:\Sprites\Sword-1.png">
+                        <collision-poly>
+                            <point x="0.828571" y="0.5" />
+                            <point x="0.647619" y="0.559524" />
+                            <point x="0.504762" y="0.940476" />
+                            <point x="0.257143" y="0.678571" />
+                            <point x="0.333333" y="0.5" />
+                            <point x="0.0380952" y="0.047619" />
+                            <point x="0.504762" y="0.107143" />
+                            <point x="0.723809" y="0.345238" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="6828780673672367">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9503389562959116" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Start" sid="924138473523255">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Flash" sid="5400269653568437">
+                    <behavior id="Flash" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="1992384513094288">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1564693545141713" speed="5">
+                    <frame duration="1" hotspotX="0.484848" hotspotY="0.47619" original-source="D:\Free Bundle\UI elements\Adventure pack\cursorSword_silver.png">
+                        <collision-poly>
+                            <point x="0.121212" y="0.190476" />
+                            <point x="0.484848" y="0.571429" />
+                            <point x="0.878788" y="0.190476" />
+                            <point x="0.969697" y="0.47619" />
+                            <point x="0.878788" y="0.809524" />
+                            <point x="0.484848" y="0.857143" />
+                            <point x="0.0909091" y="0.857143" />
+                            <point x="0.030303" y="0.47619" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Boss" sid="6914288185867951">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3364077271224148" speed="5">
+                    <frame duration="1" hotspotX="1.23958" hotspotY="0.200855">
+                        <collision-poly>
+                            <point x="0.21875" y="0.0897436" />
+                            <point x="0.5" y="0.123932" />
+                            <point x="0.84375" y="0.5" />
+                            <point x="0.739583" y="0.893162" />
+                            <point x="0.5" y="0.75641" />
+                            <point x="0.21875" y="0.910256" />
+                            <point x="0.135417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="11" loop="0" name="Attack1" pingpong="0" repeatcount="1" repeatto="0" sid="6578537322736959" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="3840317451971515">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5386260976685304" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Space\Backgrounds\Background3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Sprites\Castle.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="9097018222677751">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3279471683669346" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Free Bundle\Tappy Plane\background.png">
+                        <collision-poly>
+                            <point x="0.00289017" y="0.00289017" />
+                            <point x="0.991329" y="0.00867052" />
+                            <point x="0.92052" y="0.92052" />
+                            <point x="0.00578035" y="0.99422" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="9671140121754404">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186865492627712" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Story" sid="457577459966077">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite6" sid="1021825845883867">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3951817496034623" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502242" original-source="D:\Sprites\Really" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="4413377435305476">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="StartOver" sid="675596818945975">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
@@ -867,10 +1121,13 @@
         <event-sheet>Level 1 Events.xml</event-sheet>
         <event-sheet>Level 2 Events.xml</event-sheet>
         <event-sheet>Level 3 Events.xml</event-sheet>
-        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Start Screen Events.xml</event-sheet>
+        <event-sheet>BOSS Events.xml</event-sheet>
+        <event-sheet>Game Over Events.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="193" />
+        <global-instance type="Keyboard" uid="1585" />
+        <global-instance type="Mouse" uid="1566" />
     </global-instances>
     <sounds-folder />
     <music-folder />

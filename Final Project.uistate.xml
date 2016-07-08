@@ -10,12 +10,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Level 1</layout>
-        <layout active="1" order="2">Level 2</layout>
-        <layout order="4">Level 3</layout>
-        <event-sheet order="1">Level 1 Events</event-sheet>
-        <event-sheet order="3">Level 2 Events</event-sheet>
-        <event-sheet order="5">Level 3 Events</event-sheet>
+        <layout active="1" order="2">Level 1</layout>
+        <layout order="4">Level 2</layout>
+        <layout order="6">Level 3</layout>
+        <layout order="8">BossRoom</layout>
+        <layout order="10">Game Over Screen</layout>
+        <layout order="0">Start Screen</layout>
+        <event-sheet order="1">Start Screen Events</event-sheet>
+        <event-sheet order="5">Level 2 Events</event-sheet>
+        <event-sheet order="7">Level 3 Events</event-sheet>
+        <event-sheet order="3">Level 1 Events</event-sheet>
+        <event-sheet order="9">BOSS Events</event-sheet>
+        <event-sheet order="11">Game Over Events</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -48,11 +54,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
-        <folder expanded="1" path="animation-folder/Sprite5/" />
-        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/MVD/" />
+        <folder expanded="1" path="animation-folder/MVDR/" />
         <folder expanded="1" path="animation-folder/Sprite7/" />
         <folder expanded="1" path="animation-folder/Sprite8/" />
         <folder expanded="1" path="animation-folder/FDoor1/" />
         <folder expanded="1" path="animation-folder/FDoor2/" />
+        <folder expanded="1" path="animation-folder/GameOverScreenBackground/" />
+        <folder expanded="1" path="animation-folder/TextGameOverScreen/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/Start/" />
+        <folder expanded="1" path="animation-folder/Boss/" />
+        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/Sprite13/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
     </folders-expanded>
 </c2uistate>
