@@ -6,7 +6,7 @@
         <event-block sid="8869917544053038">
             <conditions>
                 <condition id="2" name="Key is down" sid="19179399753166" type="Keyboard">
-                    <param id="0" name="Key">32 (Space)</param>
+                    <param id="0" name="Key">90 (Z)</param>
                 </condition>
             </conditions>
             <actions>
@@ -23,6 +23,14 @@
                     <param id="3" name="Y">420</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="3329009218868599">
+            <conditions>
+                <condition id="2" name="Key is down" sid="6846976196061315" type="Keyboard">
+                    <param id="0" name="Key">16 (Shift)</param>
+                </condition>
+            </conditions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

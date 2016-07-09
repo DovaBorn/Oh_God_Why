@@ -22,7 +22,7 @@
                 <condition id="-2" name="On start of layout" sid="8089993557537435" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="3153488675786697" type="Audio">
+                <action disabled="1" id="0" name="Play" sid="3153488675786697" type="Audio">
                     <param id="0" name="Audio file">Organ_Donor</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>

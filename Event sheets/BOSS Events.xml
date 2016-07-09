@@ -6,7 +6,7 @@
         <event-block sid="1618173953449224">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="4710758918415429" type="System">
-                    <param id="0" name="Interval (seconds)">3</param>
+                    <param id="0" name="Interval (seconds)">10</param>
                 </condition>
             </conditions>
             <actions>
@@ -207,6 +207,62 @@
                 <action id="-28" name="Set canvas size" sid="9310676366009127" type="System">
                     <param id="0" name="Width">1700</param>
                     <param id="1" name="Height">1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2166490673901509">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1765262231654503" type="Bosss">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="8608104792117093" type="Bosss">
+                    <param id="0" name="Animation">&quot;Attack&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6621963030416802" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="2363804515837607">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2169342912209011" type="Bosss">
+                    <param id="0" name="Object">Kignt</param>
+                </condition>
+                <condition id="2" name="Is playing" sid="5487132910102096" type="Bosss">
+                    <param id="0" name="Animation">&quot;Attack2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5349638383973446" type="Kignt" />
+            </actions>
+        </event-block>
+        <event-block sid="5383855807283125">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="3555197426621647" type="Bosss">
+                    <param id="0" name="Instance variable">Health</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9721510116137507" type="Bosss">
+                    <param id="0" name="Animation">&quot;Death2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Platform" id="11" name="Set enabled" sid="2675039315977509" type="Kignt">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7876313605322169">
+            <conditions>
+                <condition id="4" name="On finished" sid="5175984258068735" type="Bosss">
+                    <param id="0" name="Animation">&quot;Death2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="8977197339860676" type="System">
+                    <param id="0" name="Layout">&quot;End&quot;</param>
                 </action>
             </actions>
         </event-block>

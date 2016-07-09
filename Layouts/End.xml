@@ -57,10 +57,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>864</x>
+                        <x>855</x>
                         <y>544</y>
                         <z>0</z>
-                        <width>1728</width>
+                        <width>1710</width>
                         <height>1088</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
@@ -290,9 +290,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="1621">
+                <instance type="PressZ" uid="1621">
                     <properties>
-                        <text>Press &quot;Space&quot;</text>
+                        <text>Press &quot;Z&quot;</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-35,400,0</font>
                         <color>255,255,255</color>

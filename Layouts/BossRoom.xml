@@ -606,14 +606,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>181</x>
-                        <y>382</y>
+                        <x>201</x>
+                        <y>451</y>
                         <z>0</z>
                         <width>92</width>
                         <height>236</height>
                         <depth>0</depth>
-                        <hotspotX>1.315217376</hotspotX>
-                        <hotspotY>0.207627118</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
